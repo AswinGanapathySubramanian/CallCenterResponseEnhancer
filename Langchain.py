@@ -8,7 +8,7 @@ from langchain import OpenAI, LLMChain, PromptTemplate
 #image = Image.open('C:/Users/aswin/Downloads/download.jpg')
 
 #st.image(image, caption='AmplifAI Logo')
-
+api_Key="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"
 def model(template,q1):
     count1=0
     x=st.text_input("Your Response")
@@ -22,7 +22,7 @@ def model(template,q1):
         memory = ConversationBufferMemory(memory_key="chat_history")
         
         llm_chain = LLMChain(
-            llm=OpenAI(openai_api_key="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"),
+            llm=OpenAI(openai_api_key=api_Key),
             prompt=prompt_template,
             verbose=True,
             memory=memory,
