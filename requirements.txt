@@ -1,5 +1,5 @@
 git+https://github.com/hwchase17/langchain.git
-#streamlit==1.18.1
+streamlit==1.18.1
 numpy==1.22.3
 # aiohttp==3.8.4
 # aiosignal==1.3.1
