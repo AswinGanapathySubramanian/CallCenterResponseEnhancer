@@ -207,8 +207,6 @@ if x=="Check Order Status":
         q1="Customer: Can you tell me when it will be delivered."
         model(template,q1)
 
-# In[ ]:
-
 
 
 
