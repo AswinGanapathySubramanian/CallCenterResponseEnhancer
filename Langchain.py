@@ -22,7 +22,7 @@ def model(template,q1):
         memory = ConversationBufferMemory(memory_key="chat_history")
         
         llm_chain = LLMChain(
-            llm=OpenAI(openai_api_key="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"),
+            llm=OpenAI(openai_api_key="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"),
             prompt=prompt_template,
             verbose=True,
             memory=memory,
