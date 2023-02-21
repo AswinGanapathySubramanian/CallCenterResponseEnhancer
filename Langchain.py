@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain import OpenAI, LLMChain, PromptTemplate
-from PIL import Image
+
 
 #image = Image.open('C:/Users/aswin/Downloads/download.jpg')
 
