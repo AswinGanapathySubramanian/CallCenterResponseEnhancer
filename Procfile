@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit Langchain.py
+web: sh setup.sh && streamlit run Langchain.py
