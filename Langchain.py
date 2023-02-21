@@ -3,12 +3,14 @@ import pandas as pd
 import numpy as np
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain import OpenAI, LLMChain, PromptTemplate
-
+import os
+from dot_env import load_dotenv
+load_dotenv()
 
 #image = Image.open('C:/Users/aswin/Downloads/download.jpg')
 
 #st.image(image, caption='AmplifAI Logo')
-api_Key="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"
+api_Key=os.getenv("api_Key")
 def model(template,q1):
     count1=0
     x=st.text_input("Your Response")
